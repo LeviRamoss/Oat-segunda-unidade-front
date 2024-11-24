@@ -1,0 +1,29 @@
+body {
+    background-image: url('fruits-berries\ \(1\).jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; /
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif
+}
+.card {
+    background-color: #d4c6c6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#clear-list-btn {
+    font-size: 0.875rem; /* Reduz o tamanho da fonte */
+    padding: 0.25rem 0.5rem; /* Ajusta o espaçamento interno */
+
+}
+#clear-list-btn {
+    width: 150px; /* Define a largura do botão */
+    margin: 0 auto; /* Centraliza o botão no container */
+    display: block; /* Necessário para centralizar */
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background-color: #d4c6c6;
+    
+}
