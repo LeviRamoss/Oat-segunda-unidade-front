@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Itens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="PGG.css">
+    <link rel="shortcut icon" href="fruit.png">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Lista de Itens</h1>
+        <div class="card p-4">
+            <div class="input-group mb-3">
+                <input id="item-input" type="text" class="form-control" placeholder="Adicionar item..." aria-label="Adicionar item">
+                <button id="add-item-btn" class="btn btn-primary" type="button">Adicionar</button>
+            </div>
+            <ul id="items-list" class="list-group"></ul>
+        </div>
+        <button id="clear-list-btn" class="btn btn-danger btn-sm mt-3">Limpar Lista</button>
+    </div>
+    <script src="PG.js"></script>
+</body>
+</html>
